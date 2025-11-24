@@ -15,7 +15,7 @@ jobs:
       - uses: jlumbroso/free-disk-space@main
         with:
           tool-cache: true
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           path: workspace/src/${{ github.event.repository.name }}
       - uses: ros-tooling/setup-ros@v0.7
